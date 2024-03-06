@@ -1,2 +1,15 @@
-# verbose-disco
-`@VladimirCreator` decided to create this repository at 5:22 PM on Wed 6 Mar 2024.
+# Verbose Disco
+
+
+## Table of Contents
+
+
+- [Description](#description)
+
+## Description
+
+
+### Topics
+next.js react scss typescript
+
+
