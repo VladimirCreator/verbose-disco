@@ -1,0 +1,29 @@
+{
+	"name": "verbose-disco", "private": true,
+	"version": "0.1.0",
+	"author": "Vladimir (https://github.com/vladimircreator/)",
+
+	"keywords": [
+		"next.js",
+		"react",
+		"sass",
+		"typescript"
+	],
+
+	"scripts": {
+		"build": "next build",
+		"dev": "next dev",
+		"lint": "next lint",
+		"start": "next start"
+	},
+	"dependencies": {
+		"next": "14.1.2",
+		"react": "^18", "react-dom": "^18"
+	},
+	"devDependencies": {
+		"typescript": "^5",
+		"@types/node": "^20",
+		"@types/react": "^18", "@types/react-dom": "^18",
+		"sass": "^1.71.1"
+	}
+}
