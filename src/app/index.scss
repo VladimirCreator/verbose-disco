@@ -1,0 +1,20 @@
+@use 'sass:math';
+
+$gradient-start: rgb(255 255 255);
+$gradient-stop: rgb(216 239 255);
+
+@mixin does-not-match-100-percent {
+	$angle: .000000619645873rad;
+	background: linear-gradient(
+		$angle,
+		$gradient-stop,
+		$gradient-start 64.2958167331%
+	);
+}
+
+body { $height: 2510px;
+	height: $height;
+}
+
+body { @include does-not-match-100-percent;
+}

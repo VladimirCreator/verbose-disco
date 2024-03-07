@@ -1,12 +1,14 @@
+import { Noto_Sans } from 'next/font/google'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+
 import './index.scss'
+import '@/lib/sass/index.scss'
 
 type Props = Readonly<{
 	children: React.ReactNode
 }>
 
-const inter = Inter(
+const inter = Noto_Sans(
 	{
 		subsets: ['latin']
 	}
