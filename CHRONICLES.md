@@ -46,6 +46,7 @@
 1. 6:54 AM Upload /src/assets/markdown/4.md file.
 1. 7:47 AM Execute `npm install --save react-markdown` script.
 1. 8:07 AM Execute `npm install --save rehype-raw` script.
+1. 8:50 AM Create /src/assets/stubs/ folder.
 
 > 1. 6:00 AM Finish /lib/react/article/ folder and
 >	/lib/react/articlecollection/ folder.
