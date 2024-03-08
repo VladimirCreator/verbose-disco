@@ -44,6 +44,7 @@
 1. 6:5? AM Upload /src/assets/markdown/2.md file.
 1. 6:54 AM Upload /src/assets/markdown/3.md file.
 1. 6:54 AM Upload /src/assets/markdown/4.md file.
+1. 7:47 AM Execute `npm install --save react-markdown` script.
 
 > 1. 6:00 AM Finish /lib/react/article/ folder and
 >	/lib/react/articlecollection/ folder.
