@@ -32,6 +32,18 @@
 1. 6:00 AM Finish /lib/react/article/ folder and
 	/lib/react/articlecollection/ folder.-alpha
 1. 6:04 AM Execute `npm install --save class-variance-authority` script.
+1. 6:08 AM Create /lib/react/card/Card.tsx file.
+1. 6:09 AM Create /lib/react/card/index.ts file.
+1. 6:13 AM Create /lib/react/card/card.module.scss file.
+1. 6:45 AM Create /src/assets/ folder.
+1. 6:46 AM Create /src/assets/markdown/ folder.
+1. 6:47 AM Upload /src/assets/markdown/inhalation-anticholinergic.md file.
+1. 6:49 AM Upload /src/assets/markdown/inhalation-beta2-agonist.md file.
+1. 6:51 AM Upload /src/assets/markdown/inhalation-glucocorticosteroid-igcs.md file.
+1. 6:51 AM Upload /src/assets/markdown/1.md file.
+1. 6:5? AM Upload /src/assets/markdown/2.md file.
+1. 6:54 AM Upload /src/assets/markdown/3.md file.
+1. 6:54 AM Upload /src/assets/markdown/4.md file.
 
 > 1. 6:00 AM Finish /lib/react/article/ folder and
 >	/lib/react/articlecollection/ folder.
