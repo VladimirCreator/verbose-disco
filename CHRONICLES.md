@@ -48,5 +48,24 @@
 1. 8:07 AM Execute `npm install --save rehype-raw` script.
 1. 8:50 AM Create /src/assets/stubs/ folder.
 
+## Sat 9
+
+
+1.  6:16 AM Create /src/assets/markdown/index.ts file.
+1.  7:00 AM Create /src/lib/react/cardcollection/ folder.
+1.  7:02 AM Create /src/lib/react/cardcollection/CardCollection.tsx file.
+1.  7:02 AM Create /src/lib/react/cardcollection/cardcollection.module.scss file.
+1.  7:02 AM Create /src/lib/react/cardcollection/index.ts file.
+1.  7:17 AM Move /src/app/page.module.scss to /src/app/page.scss.
+1.  9:59 AM Create /src/lib/react/badge/ folder.
+1.  9:59 AM Create /src/lib/react/badge/Badge.tsx file.
+1.  9:59 AM Create /src/lib/react/badge/index.ts file.
+1. 10:04 AM Create /src/lib/react/badge/badge.module.scss file.
+
+## Sun 10
+
+
+1. 4:06 AM Execute `npm install --save @radix-ui/react-alert-dialog` script.
+
 > 1. 6:00 AM Finish /lib/react/article/ folder and
 >	/lib/react/articlecollection/ folder.
