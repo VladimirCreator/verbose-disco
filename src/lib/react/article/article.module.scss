@@ -1,0 +1,20 @@
+article.article { position: relative;
+	&::before { content: '';
+		position: absolute; inset: 0;
+		width: calc(100% + 90px);
+		background:
+			no-repeat url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/75d74a52-edfc-4031-9100-299e45727116');
+		transform: translateX(-45px);
+	}
+
+	> h1 { position: relative;
+			font: 700 2.5rem/49.04px 'Century Gothic';
+
+			min-height: 92px;
+			padding-top: 18px;
+			margin-bottom: 40px;
+
+			color: rgb(1, 69, 122);
+		}
+}
+

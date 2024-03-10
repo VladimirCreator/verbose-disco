@@ -1,0 +1,152 @@
+$color: #01457A;
+
+$gradient-start: rgb(251 253 255);
+$gradient-stop: rgb(216 239 255);
+
+$shadow-color: rgba(142 ,160, 173, 0.35);
+$shadow-blur: 25px;
+
+article.card {
+	position: relative;
+	line-height: 32.69px;
+
+	flex: 1;
+
+	padding: {
+		top: 30px; right: 19px;
+		bottom: 30px; left: 19px;
+	}
+
+	& > :only-child {
+		padding: {
+			right: 21px; left: 21px;
+		};
+	}
+}
+
+
+
+article.landscape, article.portrait {
+	display: flex;
+}
+
+article.portrait { flex-direction: column;
+	align-items: center;
+}
+
+
+article.primary, article.tertiary {
+	box-shadow: $shadow-color 0 0 $shadow-blur;
+}
+
+article.primary {
+	color: $color;
+	background: linear-gradient(
+		-90deg,
+		$gradient-stop,
+		$gradient-start
+	);
+
+	row-gap: 15px;
+
+	border-radius: 20px;
+
+	h1 {
+		line-height: 38.14px;
+		font-weight: 500;
+		font-size: 1.75rem;
+	}
+	p {
+		font-size: 1.5rem;
+	}
+
+	& > div:first-child {
+		width: 178px; height: 145px;
+	}
+}
+
+article.secondary {
+	max-width: 347px;
+	padding: 30px 10px;
+	row-gap: 15px;
+	background: rgba(253, 217, 102, .25);
+
+	border-radius: 20px;
+
+	h1 {
+		font-weight: 400;
+		font-size: 1.625rem;
+		line-height: 35.41px;
+
+		strong:first-child {
+			line-height: 130.75px;
+			font-size: 6rem;
+		}
+		strong {
+			line-height: 35.41px;
+		}
+	}
+
+	p {
+		font-weight: 300;
+		font-size: 1.125rem;
+		line-height: 24.52px;
+	}
+}
+
+article.tertiary {
+	font-size: 1.5rem;
+
+	padding: 40px 52px 40px 38px;
+
+	column-gap: 29px;
+
+	background: rgba(255, 255, 255, 1.0);
+	border: 1px solid rgba(1, 69, 122, 1.0);
+
+	border-radius: 20px;
+
+	& > *:first-child {
+		flex-shrink: 0;
+	}
+	& > *:nth-child(2) { position: relative;
+		min-width: 295px;
+
+		padding: 6px 0 8.5px 0;
+		clip-path: path('M0 114.5H254.139L295 50.5L254.139 1 L 0 1');
+
+		background: no-repeat 0 0 linear-gradient(
+			-90deg,
+			$gradient-stop,
+			$gradient-start
+		);
+
+		&::before { content: '';
+			position: absolute; inset: 0;
+			background: -1px -1px url('/1.svg');
+		}
+			}
+	& > *:nth-child(3) { position: relative;
+		max-height: 99px; overflow: hidden;
+		line-height: 32.69px;
+
+		strong {
+			font-weight: normal;
+		}
+
+		&::after { content: '';
+			position: absolute; inset: 0;
+			background: linear-gradient(
+				rgba(255, 255, 255, 0.0) 50%, rgba(255, 255, 255, 1.0),
+			);
+		}
+	}
+
+	& > *:not(:first-child):not(:nth-child(2)):not(:nth-child(3)):not(:last-child) {
+		display: none;
+	}
+
+	&:last-child > *:nth-child(3) {
+		min-height: 132px;
+	}
+}

@@ -66,6 +66,19 @@
 
 
 1. 4:06 AM Execute `npm install --save @radix-ui/react-alert-dialog` script.
+1. 6:23 AM Create /src/lib/react/client/ folder.
+1. 6:23 AM Create /src/lib/react/server/ folder.
+1. 6:24 AM Create /src/lib/react/server/index.ts file.
+1. 6:24 AM Create /src/lib/react/client/index.ts file.
+1. 6:24 AM Create /src/lib/react/client/Root.tsx file.
+1. 6:24 AM Create /src/lib/react/server/Root.tsx file.
+1. 6:36 AM...6:37 AM Create /src/app/@article/ folder.
+1. 6:38 AM Create /src/app/@article/1/ folder.
+1. 6:48 AM Create /src/app/@article/(.)2/page.tsx file.
+1. 6:52 AM Create /src/assets/markdown/5.md file.
+1. 6:52 AM Create /src/assets/markdown/6.md file.
+1. 6:52 AM Create /src/assets/markdown/7.md file.
+1. 3:56 PM Create /src/lib/sass/_colors.scss file.
+1. 4:17 PM Create /src/lib/sass/_screen.scss file.
 
-> 1. 6:00 AM Finish /lib/react/article/ folder and
->	/lib/react/articlecollection/ folder.
+

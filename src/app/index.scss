@@ -5,15 +5,16 @@ $gradient-stop: rgb(216 239 255);
 
 @mixin does-not-match-100-percent {
 	$angle: .000000619645873rad;
-	background: linear-gradient(
-		$angle,
-		$gradient-stop,
-		$gradient-start 64.2958167331%
-	);
-}
-
-body { $height: 2510px;
-	height: $height;
+	background:
+		no-repeat url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/51064c24-f913-45dc-bd5c-3aa51cea4c88'),
+		no-repeat 534.5px 0 url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b9721091-1f0a-489c-bd66-c1cb63cb4f13'),
+		no-repeat 610.5px -17px url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/508d5606-2cd0-4011-a690-ad9819c759f4'),
+		linear-gradient(
+			$angle,
+			$gradient-stop,
+			$gradient-start 64.2958167331%
+		)
+	;
 }
 
 body { @include does-not-match-100-percent;

@@ -1,0 +1,41 @@
+/* The following variables are from Figma file.
+*/
+$width: 1380px;
+// ...
+$padding-right: 45px;
+$padding-bottom: 93px;
+$padding-left: $padding-right;
+$margin-top-bottom: 99.5px;
+// ...
+$color-background: rgba(255, 255, 255, 1.0);
+// ...
+$color-shadow: rgba(142, 160, 173, .35);
+$blur-shadow: 25px;
+
+article.articleCollection {
+	padding: {
+		top: 0; right: $padding-right;
+		bottom: $padding-bottom; left: $padding-left;
+	}
+
+	background: $color-background;
+	box-shadow: $color-shadow 0 0 $blur-shadow;
+
+	& > :first-child {
+		margin-bottom: $margin-top-bottom;
+	}
+	& > :last-child {
+		margin-top: $margin-top-bottom;
+	}
+	& > :not(:first-child):not(:last-child) {
+		margin: {
+			top: $margin-top-bottom; bottom: $margin-top-bottom;
+		}
+	}
+}
+
+@media (min-width: 1536px) {
+	article.articleCollection {
+		max-width: 67.1875%;
+	}
+}
