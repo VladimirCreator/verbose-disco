@@ -1,7 +1,8 @@
-import styles from './page.module.scss'
+import './page.scss'
+import { ServerRoot } from '@/lib/react/'
 
 export default function Root() {
 	return (
-		null
+		<ServerRoot />
 	)
 }

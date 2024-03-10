@@ -1,0 +1,16 @@
+$padding-top-bottom: 10px;
+
+div.collection {
+	display: flex;
+}
+
+div.landscape {
+	justify-content: space-between;
+	column-gap: 30px;
+}
+
+div.portrait {
+	flex-direction: column;
+	row-gap: 40px;
+	padding: $padding-top-bottom 0;
+}

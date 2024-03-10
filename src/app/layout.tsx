@@ -5,12 +5,13 @@ import './index.scss'
 import '@/lib/sass/index.scss'
 
 type Props = Readonly<{
+	article: React.ReactNode
 	children: React.ReactNode
 }>
 
 const inter = Noto_Sans(
 	{
-		subsets: ['latin']
+		subsets: ['latin', 'cyrillic']
 	}
 )
 
@@ -19,11 +20,12 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout(props: Props) {
-	const { children } = props
+	const { article, children } = props
 	return (
 		<html lang='ru'>
 			<body className={inter.className}>
 				{children}
+				{article}
 			</body>
 		</html>
 	)

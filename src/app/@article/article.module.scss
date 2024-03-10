@@ -1,0 +1,42 @@
+/* Each SCSS variable is a value from Figma’s file’s contents.
+*/
+$padding-top: 40px;
+$padding-right: 43px;
+$padding-bottom: $padding-top;
+$padding-left: 38px;
+$width: 1290px - $padding-right - $padding-left;
+
+article.article {
+	font-size: 1.5rem;
+	line-height: 32.69px;
+
+	position: absolute; inset: 0; bottom: auto; transform: translateY(25%);
+	max-width: $width;
+	padding: $padding-top $padding-right $padding-bottom $padding-left;
+	margin: 0 auto;
+	border: 1px solid rgb(1, 69, 122);
+
+	background: #FFF;
+	border-radius: 20px;
+	box-shadow: rgba(142, 160, 173, .35) 0 0 25px;
+
+	> h1 {
+		font-size: 1.875rem;
+		line-height: 40.86px;
+		text-align: center;
+	}
+
+	> p {
+		margin-bottom: 9px;
+	}
+
+	& > :first-child:not(p) {
+		margin-bottom: 40px;
+	}
+	& > :last-child:not(p) {
+		margin-top: 40px;
+	}
+	& > :not(:first-child):not(:last-child):not(p) {
+		margin-top: 40px;
+	}
+}

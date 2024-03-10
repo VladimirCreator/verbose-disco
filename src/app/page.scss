@@ -1,0 +1,54 @@
+$gradient-start: rgba(253, 217, 102, 1);
+$gradient-stop: rgba(188, 215, 126, 1);
+
+body {
+	> article:not(:last-child) {
+		margin: 0 auto 0 auto;
+	}
+	margin-bottom: 117px;
+}
+
+aside { text-align: center;
+	display: flex; justify-content: center;
+	align-items: center;
+	height: 83px;
+	background: linear-gradient(
+		-90deg,
+		$gradient-stop 31%,
+		$gradient-start
+	);
+	border-radius: 20px;
+
+	p {
+		font-weight: 700;
+		font-size: 1.75rem;
+		line-height: 38.14px;
+	}
+
+	+ p { text-align: center;
+		font-weight: 700;
+		font-size: 1.5rem;
+		line-height: 32.69px;
+
+		margin-top: 40px;
+		margin-bottom: 50px;
+	}
+}
+
+@media (min-width: 768px) {
+	body {
+		> article:not(:last-child) {
+			margin: {
+				right: auto; left: auto;
+			}
+		}
+	}
+}
+
+@media (min-width: 1280px) {
+	body {
+		> article:not(:last-child) {
+			margin-top: 140px;
+		}
+	}
+}
