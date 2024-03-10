@@ -14,11 +14,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           cache: npm
-      - uses: actions/configure-pages@v4
-        with:
-          static_site_generator: next
       - run: npm ci
       - run: npm run build
+      - run: |
+          chmod -c -R +rX "out/" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out

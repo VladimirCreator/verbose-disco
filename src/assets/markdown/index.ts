@@ -1,3 +1,4 @@
+// @ts-nocheck
 export { default as content1 } from './1.md'
 export { default as content2 } from './2.md'
 export { default as content3 } from './3.md'
