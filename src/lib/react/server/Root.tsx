@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import * as AlertDialog from '@radix-ui/react-alert-dialog'
 import Markdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
@@ -28,7 +27,7 @@ export function Root() {
 				<CardCollection orientation='portrait'>
 					<Card intent='tertiary' orientation='landscape'>
 						<Badge size='md' shape='unknown' pattern='fade'>
-							<Image width={39.32} height={37.86} src='https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f637786b-6f4f-401f-b2ca-03bcdb1370ed' alt='.' />
+							<img width={39.32} height={37.86} src='https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f637786b-6f4f-401f-b2ca-03bcdb1370ed' alt='.' />
 						</Badge>
 						<Markdown>
 							ХОБЛ болеют **преимущественно мужчины?**
@@ -36,13 +35,13 @@ export function Root() {
 						<Markdown rehypePlugins={[rehypeRaw]} children={content1} />
 						<Link href='/1'>
 							<Badge size='sm' shape='circle' alignment='topRight' pattern='blue'>
-								<Image width={23.1} height={31.32} src='https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0454488d-b948-4cec-b9f9-25c2e4e0935b' alt='.' />
+								<img width={23.1} height={31.32} src='https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0454488d-b948-4cec-b9f9-25c2e4e0935b' alt='.' />
 							</Badge>
 						</Link>
 					</Card>
 					<Card intent='tertiary' orientation='landscape'>
 						<Badge size='md' shape='unknown' pattern='fade'>
-							<Image width={39.32} height={37.86} src='https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1b099a69-2d40-41fc-8995-dd0073f3e3c6' alt='.' />
+							<img width={39.32} height={37.86} src='https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1b099a69-2d40-41fc-8995-dd0073f3e3c6' alt='.' />
 						</Badge>
 						<Markdown>
 							**Опасно** не наличие заболевания, а обострения?
@@ -50,7 +49,7 @@ export function Root() {
 						<Markdown rehypePlugins={[rehypeRaw]} children={content2} />
 						<Link href='/2'>
 							<Badge size='sm' shape='circle' alignment='topRight' pattern='green'>
-								<Image width={23.1} height={31.32} src='https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0454488d-b948-4cec-b9f9-25c2e4e0935b' alt='.' />
+								<img width={23.1} height={31.32} src='https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0454488d-b948-4cec-b9f9-25c2e4e0935b' alt='.' />
 							</Badge>
 						</Link>
 					</Card>
@@ -75,7 +74,7 @@ export function Root() {
 							(content, index) => (
 								<Card intent='primary' orientation='portrait'>
 									<div style={{position: 'relative'}}>
-										<Image style={{position: 'absolute', left: 0}} width={125.2} height={105.18} src='https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8e8b0e1c-b95b-41b0-a72d-f5c6721448d9' alt='.' />
+										<img style={{position: 'absolute', left: 0}} width={125.2} height={105.18} src='https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8e8b0e1c-b95b-41b0-a72d-f5c6721448d9' alt='.' />
 										<Badge size='md' alignment='bottomRight' pattern='fade'>
 											{index+1}
 										</Badge>

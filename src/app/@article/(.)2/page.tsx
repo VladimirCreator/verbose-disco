@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Markdown from 'react-markdown'
 
 import styles from '../article.module.scss'
