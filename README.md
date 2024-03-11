@@ -1,5 +1,5 @@
 # Verbose Disco
-
+[![GitHub Pages](https://github.com/VladimirCreator/verbose-disco/actions/workflows/github-pages.yaml/badge.svg)](https://github.com/VladimirCreator/verbose-disco/actions/workflows/github-pages.yaml)
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@
 
 
 ### Topics
-next.js react scss typescript
+next.js react sass typescript
 
 ## Acknowledgments
 
